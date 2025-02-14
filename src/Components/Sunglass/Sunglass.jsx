@@ -20,5 +20,3 @@ const Sunglass = () => {
 };
 
 export default Sunglass;
-
-// 41- 11.54;

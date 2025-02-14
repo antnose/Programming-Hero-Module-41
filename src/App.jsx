@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Sunglass from "./Components/Sunglass/Sunglass";
 import Watch from "./Components/Watch/Watch";
+import Header from "./Components/Header/Header";
+import Bottles from "./Components/Bottles/Bottles";
 
 function App() {
   const [watches, setWatches] = useState([]);
@@ -42,13 +44,16 @@ function App() {
 
   return (
     <>
-      <h3>Module Introduction ES6 Modules and data storage integration</h3>
+      {/* <h3>Module Introduction ES6 Modules and data storage integration</h3>
       <Sunglass />
       {watches.map((watch) => (
         <Watch watch={watch} key={watch.id} />
-      ))}
+      ))} */}
+      <Header />
+      <Bottles />
     </>
   );
 }
 
 export default App;
+// 7.50

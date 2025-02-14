@@ -1,0 +1,6 @@
+.bottleContainer {
+  height: 200px;
+  width: 200px;
+  border: 2px solid pink;
+  border-radius: 10px;
+}
