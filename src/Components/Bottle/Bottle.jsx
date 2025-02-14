@@ -3,8 +3,11 @@ import "./Bottle.css";
 const Bottle = ({ bottle }) => {
   return (
     <div className="bottleContainer">
-      <p>Name: {bottle.name} </p>
-      <img className="bottleImg" src={bottle.img} alt="" />
+      <img className="bottleImg" src={bottle.img} alt={bottle.name} />
+      <div className="bottleInfo">
+        <p className="bottleName">Name: {bottle.name}</p>
+        <button>Purchase</button>
+      </div>
     </div>
   );
 };
