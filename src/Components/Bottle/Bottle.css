@@ -1,6 +1,12 @@
 .bottleContainer {
-  height: 200px;
-  width: 200px;
-  border: 2px solid pink;
-  border-radius: 10px;
+  height: 400px;
+  width: 400px;
+  border-radius: 15px;
+  justify-content: center;
+}
+
+.bottleImg {
+  border-radius: 15px;
+  height: 150px;
+  width: 150px;
 }

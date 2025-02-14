@@ -1,6 +1,6 @@
 .bottleContainer {
-  height: 200px;
-  width: 200px;
-  border: 2px solid pink;
-  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  justify-content: center;
 }

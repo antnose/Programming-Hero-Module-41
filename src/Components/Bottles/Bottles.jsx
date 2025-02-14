@@ -14,9 +14,12 @@ const Bottles = () => {
   return (
     <>
       <h2>Bottles Here {bottles.length} </h2>
-      {bottles.map((bottle) => (
-        <Bottle bottle={bottle} key={bottle.id} />
-      ))}
+
+      <div className="bottleContainer">
+        {bottles.map((bottle) => (
+          <Bottle bottle={bottle} key={bottle.id} />
+        ))}
+      </div>
     </>
   );
 };
